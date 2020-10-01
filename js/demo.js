@@ -44,7 +44,7 @@ $(function () {
     // Upload server status check for browsers with CORS support:
     if ($.support.cors) {
       $.ajax({
-        url: '//magaridis.github.io/jQuery-File-Upload//',
+        url: '//magaridis.github.io/jQuery-File-Upload/',
         type: 'HEAD'
       }).fail(function () {
         $('<div class="alert alert-danger"></div>')
