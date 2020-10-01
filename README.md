@@ -1,5 +1,8 @@
 # jQuery File Upload
 
+> Fileアップロードのテスト用に Sebastian Tschan 氏が作成された　blueimp　を
+> forkしてファイルアップローダーの仕組みを勉強中です。
+
 ## Contents
 
 - [Description](#description)
@@ -21,16 +24,12 @@
 
 ## Description
 
-> File Upload widget with multiple file selection, drag&drop support, progress
-> bars, validation and preview images, audio and video for jQuery.  
-> Supports cross-domain, chunked and resumable file uploads and client-side
-> image resizing.  
-> Works with any server-side platform (PHP, Python, Ruby on Rails, Java,
-> Node.js, Go etc.) that supports standard HTML form file uploads.
+> 現在、Fileアップロードテスト用にURLやパスを変更しているので、正常に動作していません。
+
 
 ## Demo
 
-[Demo File Upload](https://blueimp.github.io/jQuery-File-Upload/)
+[Demo File Upload](https://magaridis.github.io/jQuery-File-Upload/)
 
 ## Features
 
