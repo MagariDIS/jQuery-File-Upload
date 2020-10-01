@@ -28,10 +28,10 @@ $(function () {
     window.location.href.replace(/\/[^/]*$/, '/cors/result.html?%s')
   );
 
-  if (window.location.hostname === 'blueimp.github.io') {
+  if (window.location.hostname === 'magaridis.github.io') {
     // Demo settings:
     $('#fileupload').fileupload('option', {
-      url: '//jquery-file-upload.appspot.com/',
+      url: '//magaridis.github.io/jQuery-File-Upload/',
       // Enable image resizing, except for Android and Opera,
       // which actually support image resizing, but fail to
       // send Blob objects via XHR requests:
@@ -44,7 +44,7 @@ $(function () {
     // Upload server status check for browsers with CORS support:
     if ($.support.cors) {
       $.ajax({
-        url: '//jquery-file-upload.appspot.com/',
+        url: '//magaridis.github.io/jQuery-File-Upload//',
         type: 'HEAD'
       }).fail(function () {
         $('<div class="alert alert-danger"></div>')
